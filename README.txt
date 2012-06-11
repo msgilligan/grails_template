@@ -7,7 +7,7 @@ Create database:
 	bees db:create -u DB_USER -p DB_PASSWORD DBNAME
 
 Bind database as datasource:
-	bees app:bind -db DBNAME -a MYAPP_ID -as PlayDB
+	bees app:bind -db DBNAME -a MYAPP_ID -as GrailsDB
 
 Add 'Jenkins Grails plugin' to your Jenkins plugins
 
