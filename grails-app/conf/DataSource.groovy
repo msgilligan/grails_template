@@ -1,5 +1,5 @@
 dataSource {
-    jndiName = "java:comp/env/grails_template"
+  jndiName = "java:comp/env/grails_template"
 }
 hibernate {
     cache.use_second_level_cache = true

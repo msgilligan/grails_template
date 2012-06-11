@@ -5,7 +5,7 @@
 		<title>Grails!</title>
 	</head>
 	<body>
-		<g:form name="AddForm" url="[controller:'Main',action:'AddItem']">
+		<g:form name="AddForm" url="[controller:'main',action:'addItem']">
 		<div class = "input">
 			<p>
      		   <label for="name">Name: </label>
@@ -17,7 +17,7 @@
 		</div>
 		</g:form>
 
-		<g:form name="RemoveForm" url="[controller:'Main',action:'RemoveItem']">
+		<g:form name="RemoveForm" url="[controller:'main',action:'removeItem']">
 		<div class = "remove">
 			<p>
        		 	<label for="name">Name: </label>

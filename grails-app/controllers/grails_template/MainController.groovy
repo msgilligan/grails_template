@@ -7,10 +7,11 @@ class MainController {
 	}
 
     def addItem(String name, String comment){
-    	def item = new Item(name: name, comment: comment)
-    	item.save()
+    	new Item(name: name, comment: comment).save()
+        redirect(uri: "/")
     }
     def removeItem(String name){
     	Item.findByName(name).first().delete()
+        redirect(uri: "/")
     }
 }
