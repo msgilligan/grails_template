@@ -17,5 +17,5 @@ Create a new software project in Jenkins, changing the following:
 		Grails Installation: Grails 2.0.3
 		Targets: war
 	- Also check "Deploy to CloudBees" with those parameters:
-		Application Id: APP_NAME
+		Application Id: MYAPP_ID
 		Filename Pattern: target/*.war
