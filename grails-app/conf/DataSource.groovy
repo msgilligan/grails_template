@@ -1,8 +1,5 @@
 dataSource {
-    pooled = true
-    driverClassName = "org.h2.Driver"
-    username = "sa"
-    password = ""
+    jndiName = "java:comp/env/grails_template"
 }
 hibernate {
     cache.use_second_level_cache = true
