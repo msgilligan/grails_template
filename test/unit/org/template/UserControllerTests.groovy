@@ -1,4 +1,4 @@
-package grails_template
+package org.template
 
 
 
@@ -8,10 +8,10 @@ import org.junit.*
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(MainController)
-class MainControllerTests {
+@TestFor(UserController)
+class UserControllerTests {
 
     void testSomething() {
-    	render "Test not implemented"
+       fail "Implement me"
     }
 }
