@@ -35,6 +35,7 @@
     			<div class="item">
  					<tr><td>${item.name}</td><td>${item.comment}</td></tr>
     			</div>
+    		</g:each>
 		</table>
 	</body>
 </html>
