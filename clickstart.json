@@ -1,0 +1,30 @@
+{
+    "id": "grails-template",
+    "name": "Grails 2.0 implementation",
+    "source": "git://github.com/benjaminsavoy/grails_template.git",
+    "runtime": {
+        "type": "jboss"
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "GrailsDB"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "grails",
+            "version": "2.0.3"
+            "options": {
+                "build-steps": [
+		            {
+                        "type": "grails"
+                        "targets": "war"
+                    }
+               
+                ]
+                "deploy": "target/*.war"
+            }
+        }
+    }
+}
