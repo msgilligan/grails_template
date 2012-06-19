@@ -3,6 +3,8 @@ To deploy this on CloudBees, follow those steps:
 Create application:
 	bees app:create MYAPP_ID
 
+In the configuration tab of your application on cloudbees.com, choose Java EE 6 as your application container.
+
 Create database:
 	bees db:create -u DB_USER -p DB_PASSWORD DBNAME
 
