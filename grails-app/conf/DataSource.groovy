@@ -1,11 +1,6 @@
 dataSource {
-    pooled = true
-    jndiName = "java:/jdbc/GrailsDB"
-    /*pooled = true
-    driverClassName = "org.h2.Driver"
-    username = "sa"
-    password = ""*/
 }
+
 hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = false
@@ -16,20 +11,25 @@ hibernate {
 environments {
   development {
         dataSource {
+            pooled = true
+            driverClassName = "org.h2.Driver"
+            username = "sa"
+            password = ""
             dbCreate = "create-drop"
-            url = "jdbc:h2:mem:devDb"
         }
     }
     test {
         dataSource {
+            pooled = true
+            jndiName = "java:/jdbc/GrailsDB"
             dbCreate = "update"
-            url = "jdbc:h2:mem:testDb"
         }
     }
     production {
         dataSource {
+            pooled = true
+            jndiName = "java:/jdbc/GrailsDB"
             dbCreate = "update"
-            url = "jdbc:h2:prodDb"
         }
     }
 }
