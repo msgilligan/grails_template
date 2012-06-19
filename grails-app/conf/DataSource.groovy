@@ -1,6 +1,6 @@
 dataSource {
     pooled = true
-    jndiName = "java:comp/env/GrailsDB"
+    jndiName = "java:/jdbc/GrailsDB"
     /*pooled = true
     driverClassName = "org.h2.Driver"
     username = "sa"
