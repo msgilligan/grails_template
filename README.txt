@@ -21,3 +21,12 @@ Create a new software project in Jenkins, changing the following:
 	- Also check "Deploy to CloudBees" with those parameters:
 		Application Id: MYAPP_ID
 		Filename Pattern: target/*.war
+
+To build this locally:
+
+In the project directory, open a command line and, with Grails 2.0 installed, type "grails war" to build the war file, deploy it on cloudbees typing:
+	bees app:deploy -t jboss -a MYAPP_ID target/*.war
+
+To run this locally:
+
+Once you have Grails 2.0 installed, open a command line in the project directory and type "grails run-app". You can then browse to localhost:8000/grails_template and see your project up and running.
