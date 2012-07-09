@@ -1,6 +1,6 @@
 {
-    "id": "grails-template",
-    "name": "Grails 2.0 implementation",
+    "id": "grails_template",
+    "name": "Grails 2.0 Template for CloudBees",
     "source": "git://github.com/benjaminsavoy/grails_template.git",
     "runtime": {
         "type": "jboss"

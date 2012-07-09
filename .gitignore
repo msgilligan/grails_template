@@ -1,11 +1,6 @@
 *.iws
 *Db.properties
 *Db.script
-.settings
-.classpath
-.project
-eclipse
-stacktrace.log
 target
 /plugins
 /web-app/plugins
