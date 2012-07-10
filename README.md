@@ -1,3 +1,5 @@
+# Grails Template for CloudBees.
+
 ## To deploy this on CloudBees, follow those steps:
 
 Create application:
