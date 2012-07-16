@@ -40,4 +40,4 @@ In the project directory, open a command line and, with Grails 2.0.4 installed, 
 
 ## To run this locally:
 
-Once you have Grails 2.0.4 installed, open a command line in the project directory and type "grails run-app". You can then browse to localhost:8000/grails_template and see your project up and running.
+Once you have Grails 2.0.4 installed, open a command line in the project directory and type "grails run-app". You can then browse to localhost:8080/grails_template and see your project up and running.
