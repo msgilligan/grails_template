@@ -1,8 +1,8 @@
 {
     "id": "grails_template",
     "name": "Grails 2.0 Template for CloudBees",
-    "source": "git://github.com/benjaminsavoy/grails_template.git",
-    "disabled-reason" : "This clickstart isn't available yet, however if you are impatient you can go to https://github.com/benjaminsavoy/grails_template/blob/master/README.md",
+    "source": "git://github.com/CloudBees-community/grails_template.git",
+    "disabled-reason" : "This clickstart isn't available yet, however if you are impatient you can go to https://github.com/CloudBees-community/grails_template/blob/master/README.md",
     "runtime": {
         "type": "jboss"
     },
@@ -15,7 +15,7 @@
     "build-with-jenkins": {
         "template": {
             "type": "grails",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "options": {}               
             }
      }
