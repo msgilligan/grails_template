@@ -3,6 +3,7 @@
     "name": "Grails 2.0 Template for CloudBees",
     "source": "git://github.com/CloudBees-community/grails_template.git",
     "disabled-reason" : "This clickstart isn't available yet, however if you are impatient you can go to https://github.com/CloudBees-community/grails_template/blob/master/README.md",
+    "disabled" : true,
     "runtime": {
         "type": "jboss"
     },
