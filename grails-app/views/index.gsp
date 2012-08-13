@@ -109,6 +109,32 @@
 			   content you may choose. Below is a list of controllers that are currently deployed in this application,
 			   click on each to execute its default action:</p>
 
+			<!-- this is used for first time display of clickstart - a template-->
+			<div id="clickstart_content">
+				<p>
+					Congratulations, <a href="#CS_appManageUrl"><span>#CS_appName</span></a>, your <a href="#CS_docUrl"><span>#CS_name</span></a> application is now running.<br />
+					To modify it, take the following steps to clone the source repository:
+				</p>
+
+				<div class="CB_codeSample">
+					git clone #CS_source #CS_appName<br/>
+						cd #CS_appName<br/>
+						---- do your magic edits ----<br/>
+						git commit -m 'This is now even better !'<br/>
+						git push origin master
+				</div>
+
+				<p>Manage your application components at the following URLs:</p>
+				<ul>
+					<li><strong>Core application:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>
+					<li><strong>Database:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>
+					<li><strong>Jenkins Build System:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>
+				</ul>
+		  	</div>
+
+			<script type="text/javascript" src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart_intro.js"></script>
+			<!-- end clickstart intro section -->
+
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
 				<ul>
@@ -118,5 +144,8 @@
 				</ul>
 			</div>
 		</div>
+
+	
+
 	</body>
 </html>
