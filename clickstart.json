@@ -1,8 +1,11 @@
 {
     "id": "grails_template",
-    "name": "Grails 2.0 Template for CloudBees",
-    "source": "git://github.com/CloudBees-community/grails_template.git",
-    "disabled-reason" : "This clickstart isn't available yet, however if you are impatient you can go to https://github.com/CloudBees-community/grails_template/blob/master/README.md",
+    "name": "Grails 2.0 Template",
+    "source": "git://github.com/CloudBees-Community/grails_template.git",
+    "description" : "This is a basic Grails application showcasing ORM",
+    "doc-url" : "https://github.com/CloudBees-Community/grails_template/blob/master/README.md",
+    "icon" : "https://raw.github.com/CloudBees-Community/grails_template/master/icon.png",
+    "disabled-reason" : "This clickstart isn't available yet, however if you are impatient you can go to https://github.com/CloudBees-community/grails_template/blob/master/README.md",	
     "disabled" : true,
     "runtime": {
         "type": "jboss"
@@ -15,10 +18,7 @@
     ],
     "build-with-jenkins": {
         "template": {
-            "type": "grails",
-            "version": "2.0.4",
-            "options": {}               
-            }
+            "type": "https://raw.github.com/CloudBees-Community/grails_template/master/config.xml"
+        }
      }
-    
 }

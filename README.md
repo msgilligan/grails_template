@@ -1,4 +1,21 @@
-# Grails Template for CloudBees.
+# Grails clickstart
+
+This clickstart sets up a database, build service, repository and a 
+basic Grails ORM application. 
+
+Note: You will need to have the Grails plugin installed on Jenkins before being able to use this ClickStart project.
+
+<a 
+href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-Community/grails_template/master/clickstart.json"><img 
+src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
+
+Launch this clickstart and glory could be yours too ! Use it as a 
+building block if you like.
+
+You can launch this on Cloudbees via a clickstart automatically, or 
+follow the instructions below. 
+
+# Deploying manually:
 
 ## To deploy this on CloudBees, follow those steps:
 
