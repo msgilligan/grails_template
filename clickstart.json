@@ -5,6 +5,7 @@
     "description" : "This is a basic Grails application showcasing ORM",
     "doc-url" : "https://github.com/CloudBees-Community/grails_template/blob/master/README.md",
     "icon" : "https://raw.github.com/CloudBees-Community/grails_template/master/icon.png",
+    "app-package": "https://cloudbees-downloads.s3.amazonaws.com/clickstart/grails_template.war",
     "disabled" : true,
     "runtime": {
         "type": "jboss"
