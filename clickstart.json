@@ -17,6 +17,7 @@
         }
     ],
     "build-with-jenkins": {
+        "plugins" : ["git", "grails"],
         "template": {
             "type": "https://raw.github.com/CloudBees-Community/grails_template/master/config.xml"
         }
